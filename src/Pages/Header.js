@@ -3,7 +3,7 @@ import React from "react";
 function Header(){
     return(
         <React.Fragment>
-            <div>Hello</div>
+            <div></div>
         </React.Fragment>
     )
 }
