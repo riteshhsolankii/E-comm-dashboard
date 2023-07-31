@@ -7,7 +7,9 @@ function Header(){
             <div className="header-main">
                 <nav>
                     <ul>
-                       
+                        <li>
+                            <NavLink> Hey</NavLink>
+                        </li>
                     </ul>
                 </nav>
                

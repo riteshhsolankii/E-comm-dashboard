@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import {} from 'react-bootstrap'
 import Header from './Pages/Header'
 import React from 'react';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
@@ -12,7 +11,7 @@ function App() {
       <Header/>
       <BrowserRouter>
       <Routes>
-        <Route path="/addproduct" element={<AddProduct/>}/>
+        <Route path="/addproduct" element={<AddProduct /> } />
       </Routes>
     </BrowserRouter>
     </React.Fragment>
